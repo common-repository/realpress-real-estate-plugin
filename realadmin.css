@@ -1,0 +1,350 @@
+/* 
+Theme Name: realpressadmin
+Version: 0.05
+*/
+#addnewfield {
+	background: #fcfeec;
+} 
+
+
+#listleft {
+	width: 12%;
+	float: left;
+	padding: 10px;
+}
+#listmiddle {
+	width: 40%;
+	float: left;
+	padding-top: 15px;
+	/*  height:350px;  !!! */
+}
+#listright {
+	width: 40%;
+	float: right;
+	padding-left: 10px;
+	height:450px;
+	padding-top: 15px;
+}
+#realpress_3 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top:10px;
+	height: 100px;
+	border: 2px solid #c7c7c7;
+	position:relative ;
+}
+#realpress_1 {
+	border: 2px solid #c7c7c7;
+	min-height: 100px;
+	margin-top: 20px;
+	height: 100px;
+	background: url(./images/images6.jpg) no-repeat right top;
+}
+#realpress_2 {
+	border: 2px solid #c7c7c7;
+	min-height: 100px;
+	margin-top: 20px;
+	height: 100px;
+	background: url(./images/images7.jpg) no-repeat right top;
+}
+#listdetail {
+	z-index:559;	
+	width: 140px;
+	position:absolute;
+	left:0px;
+	/* 
+	float: left;
+	width: 45%;
+	top:0px;
+	left:0px;
+	  */
+	border: 2px solid #c7c7c7;
+	min-height: 80px;
+	height: 80px;
+	background: url(./images/images8.jpg) no-repeat right top;
+}
+#contact {
+	
+	width: 140px;
+	position:absolute;
+	left:180px;
+	border: 2px solid #c7c7c7;
+	min-height: 80px;
+	height: 80px;
+	z-index:999;
+	background: url(./images/images9.jpg) no-repeat right top;
+}
+#listpage {
+	border: 2px solid #c7c7c7;
+	min-height: 450px;
+	height:450px;
+}
+
+h4 {
+	margin: 5px 0;
+}
+/* .over {border: thick solid #cfc; border-width: 2px;} */
+
+#imagehidden
+{
+	display:none;
+}
+
+#googlehidden
+{
+	display:none;
+}
+
+#detailshidden
+{
+	display:none;
+}
+
+#contacthidden
+{
+	display:none;
+}
+
+#totalhidden
+{
+	display:none;
+}
+
+#hiddenrealpress_3
+{
+	display:none;
+}
+
+#leftside
+{
+	display:none;
+}
+
+/*  currency */
+.dataSmall {
+	font-size: 11px;
+}
+
+.currencyDataTable {
+	font-size: 12px;
+}
+
+.currencyDataTable th {
+	background-color: #BFD6E0;
+	font-weight: normal;
+	font-size: 11px;
+	padding-left: 4px;
+	padding-right: 4px;
+	vertical-align: bottom;
+}
+
+.currencyDataTable tr:hover {
+	background-color: #FC6;
+}
+
+.currencyDataTable td {
+	padding-left: 3px;
+	padding-right: 3px;
+	vertical-align: top;
+	text-align: left;
+}
+
+.currencyDataTable .currencyData {
+	text-align: right;
+}
+
+.currencyDataTable tr {
+	background-color: #FFF;
+}
+
+.currencyDataTable .currencyStripe {
+	background-color: #F3F3F3;
+}
+
+.currencyDataTable tr.currencyDataSlick td {
+	border-bottom: 1px solid #EEE;
+}
+
+.currencyDataTable tr.currencyDataSlick th {
+	background-color: #FFF;
+	border-bottom: 1px solid #EEE;
+}
+
+.currencyDataTable th.subHeader {
+	background-color: #FFF;
+	padding: 0px;
+	padding-top: 10px;
+}
+
+
+/** tabs **/
+
+#realTab
+{
+	padding:0px;
+	margin:0px;
+	list-style:none;
+}
+
+#realTab #realsubTab li {
+margin:0px;
+padding:0px;
+margin-right:2px;
+float:left;
+cursor:pointer;
+font-size:14px;
+padding:5px 2px;
+border-top: 1px solid #97a5b0;
+border-left: 1px solid #97a5b0;
+border-right: 1px solid #97a5b0;
+background: #f5f5fc;
+}
+
+#realTab #realsubTab li a{
+cursor:hand;
+}
+#realTab #realsubTab a span {
+    width: 80px; /* IE 6 treats width as min-width */
+    min-width: 80px;
+    height: 15px; /* IE 6 treats height as min-height */
+    min-height: 15px;
+    padding-top: 6px;
+    padding-right: 0;
+}
+
+
+#realTab #realsubTab a {
+    position: relative;
+    top: 1px;
+    z-index: 2;
+    padding-left: 0;
+    color: #27537a;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap; /* required in IE 6 */    
+}
+
+#rp_postform
+{
+	width:500px;
+	border-color:#EBEBEB rgb(204, 204, 204) rgb(204, 204, 204) rgb(235, 235, 235);
+	border-style:solid;
+	border-width:1px;
+	margin:15px 15% 0pt 15px;
+	padding:2px;
+	
+}
+
+#rp_postBox
+{
+	padding-left: 15px;
+}
+
+.rp_listingcategory
+{
+	width:250px;
+}
+
+
+
+
+#rp_head{
+	display: block;
+	background:#F1F1F1 none repeat scroll 0%;
+	font-size:16px;
+	overflow:hidden;
+	border-bottom:dotted 1px #DEDEDE;
+	padding:10px 5px;
+	font-style:italic ;
+	
+}
+
+#rp_filebox
+{
+	width:250px;
+}
+
+#category_news,#rpSelectPropertyTypes, #rpSelectListingTypes,#rp_listTags,#rp_menuTitleSEO,#rp_metaDescriptionSEO,#rp_metaTitleSEO
+{
+	width:300px;
+}
+
+#realmessagetop
+{
+	background-color: #fffbcc;
+	
+	border:1px solid #e6db55;
+}
+#rp_listingstatus,#rp_listingfeatured
+{
+	width:200px;
+}
+
+#themeEditorBody
+{
+	background:#fff;
+	margin:10px;
+	padding:10px;
+}
+
+#themeEditorMain
+{
+	text-align:left;
+	align:left;
+	margin:2px 5px;
+	padding:2px 5px;
+	font-size:12px;
+}
+
+#realThemeCss
+{
+	color:blue;
+	margin:0px 0px;
+}
+
+#realThemeCode
+{
+	color:red;	
+	margin:0px 0px;
+}
+
+#realtextareaphp,#realtextareacss
+{
+	margin:20px 0px;
+}
+
+#realSaveTips
+{
+	cursor: pointer; 
+}
+
+#realThemeNewName
+{
+	color:brown;
+	margin:0px 0px;
+}
+
+#realSoldUpdate
+{
+	margin:5px 0px;
+	color:brown;
+}
+
+.clear {
+	clear: both;
+}
+
+#appearance
+{
+	margin:2px auto 30px;
+	padding:2px auto 30px;
+}
+
+#realAppearance
+{
+	margin:2px auto 50px;
+	padding:2px auto 50px;
+}
